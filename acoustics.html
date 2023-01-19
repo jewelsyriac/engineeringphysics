@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PHT110</title>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="pht110.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto+Slab:wght@300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="top-navbar">
+
+        <div class="sidebar-toggle-button"><button>☰</button></div>
+
+
+
+        <div class="dropdown"><a href="index.html" class="dropdown-toggle">Home</a></div>
+
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle">Notes</a>
+            <div class="dropdown-menu">
+                <a href="notes.html#module1">Module 1</a>
+                <a href="notes.html#module2">Module 2</a>
+                <a href="notes.html#module3">Module 3</a>
+                <a href="notes.html#module4">Module 4</a>
+                <a href="notes.html#module5">Module 5</a>
+            </div>
+        </div>
+
+
+        <div class="dropdown">
+            <a href="#" class="dropdown-toggle">Previous Questions</a>
+            <div class="dropdown-menu">
+                <a href="previous.html">June 2018</a>
+                <a href="previous.html">December 2018</a>
+                <a href="previous.html">June 2019</a>
+                <a href="previous.html">December 2019</a>
+                <a href="previous.html">June 2020</a>
+                <a href="previous.html">December 2020</a>
+                <a href="previous.html">June 2021</a>
+                <a href="previous.html">December 2021</a>
+            </div>
+        </div>
+        <div class="dropdown" id="hide"><a href="formulas.html" class="dropdown-toggle">Formulas</a></div>
+        <div class="dropdown" id="hide"><a href="about.html" class="dropdown-toggle">About</a></div>
+
+    </nav>
+
+    <nav class="side-navbar">
+        <ul>
+            <li class="main-topic">
+                <a href="#">Oscillations</a>
+                <ul class="subtopics">
+                    <li><a href="oscillations.html#shm">Simple Harmonic Motion</a></li>
+                    <li><a href="oscillations.html#dhm">Damped Harmonic Motion</a></li>
+                    <li><a href="oscillations.html#fhm">Forced Harmonic Motion</a></li>
+                    <li><a href="oscillations.html#qf">Quality factor</a></li>
+                    <li><a href="oscillations.html#resonance">Resonance</a></li>
+                    <li><a href="oscillations.html#lcr">LCR Oscillations</a></li>
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">Waves</a>
+                <ul class="subtopics">
+                    <li><a href="waves.html#waveclassification">Waves: Classification and mode of propagation</a></li>
+                    <li><a href="waves.html#1dwave">One dimensional wave equation</a></li>
+                    <li><a href="waves.html#3dwave">Three dimensional wave equation</a></li>
+                    <li><a href="waves.html#waveequation">Solution of wave equation</a></li>
+                    <li><a href="waves.html#stretchedstring">Transverse waves in stretched string</a></li>
+                    <li><a href="waves.html#lawsvibration">Laws of vibration</a></li>
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">Interference</a>
+                <ul class="subtopics">
+                    <li><a href="interference.html#huygens">Huygen's Wave Theory</a></li>
+                    <li><a href="interference.html#interference">Interference</a></li>
+                    <li><a href="interference.html#superposition">Superposition Principle</a></li>
+                    <li><a href="interference.html#thinfilm">Thin film Interference</a></li>
+                    <li><a href="interference.html#airwedge">Air Wedge</a></li>
+                    <li><a href="interference.html#newtonsring">Newton's Rings</a></li>
+                    <li><a href="interference.html#arc">Anti-Reflection coating</a></li>
+
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">Diffraction</a>
+                <ul class="subtopics">
+                    <li><a href="diffraction.html#diffraction">Diffraction</a></li>
+                    <li><a href="diffraction.html#grating">Diffraction grating</a></li>
+                    <li><a href="diffraction.html#rayleigh">Rayleigh's criterion</a></li>
+                    <li><a href="diffraction.html#resolving">Resolving & Dispersive power</a></li>
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">Quantum Mechanics</a>
+                <ul class="subtopics">
+                    <li><a href="quantummechanics.html#quantum">Quantum mechanics - Introduction</a></li>
+                    <li><a href="quantummechanics.html#debroglie">De-broglie wave hypothesis</a></li>
+                    <li><a href="quantummechanics.html#heisenberg">Heisenberg's Uncertainty principle</a></li>
+                    <li><a href="quantummechanics.html#wavefunction">Wavefunction</a></li>
+                    <li><a href="quantummechanics.html#operators">Operators</a></li>
+                    <li><a href="quantummechanics.html#schrodingerseqn">Schrodinger's time dependent equation</a></li>
+                    <li><a href="quantummechanics.html#schrodingerseqn2">Schrodinger's time independent equation</a>
+                    </li>
+                    <li><a href="quantummechanics.html#particleinbox">Particle in a box</a></li>
+
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">Nanotechnology</a>
+                <ul class="subtopics">
+
+                    <li><a href="nanotechnology.html#nanotechnology">Nanotechnolgy</a></li>
+                    <li><a href="nanotechnology.htmlsurface#">Surface to volume ration</a></li>
+                    <li><a href="nanotechnology.html#confinement">Quantum Confinement</a></li>
+                    <li><a href="nanotechnology.html#properties">Properties of nano materials</a></li>
+                    <li><a href="nanotechnology.html#applications">Applications of nanotechnolgy</a></li>
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">Acoustics</a>
+                <ul class="subtopics">
+                    <ul class="subtopics">
+                        <li><a href="acoustics.html#acoustics">Acoustics - Introduction</a></li>
+                        <li><a href="acoustics.html#soundchar">Characteristics of sound</a></li>
+                        <li><a href="acoustics.html#absorption">Absorption & absorption coefficient</a></li>
+                        <li><a href="acoustics.html#reverberation">Reverberation & Echoe</a></li>
+                        <li><a href="acoustics.html#sabines">Reverberation time and sabine's formula</a></li>
+                        <li><a href="acoustics.html#buildingacoustics">Acoustics of buiding</a></li>
+
+                    </ul>
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">Ultrasonics</a>
+                <ul class="subtopics">
+                    <ul class="subtopics">
+                        <li><a href="ultrasonics.html#ultrasonic-waves-characteristics-velocity">Ultrasonic Waves
+                                Characteristics and
+                                Velocity</a>
+                        </li>
+                        <li><a href="ultrasonics.html#production-of-ultrasonic-waves">Production of Ultrasonic Waves</a>
+                        </li>
+                        <li><a href="ultrasonics.html#magnetostriction-oscillator">Magnetostriction Oscillator</a></li>
+                        <li><a href="ultrasonics.html#piezoelectric-oscillator">Piezoelectric Oscillator</a></li>
+                        <li><a href="ultrasonics.html#ultrasonic-diffractometer">Ultrasonic Diffractometer</a></li>
+                        <li><a href="ultrasonics.html#detection-of-ultrasonic-waves">Detection of Ultrasonic Waves</a>
+                        </li>
+                        <li><a href="ultrasonics.html#ultrasonic-diffractometer">Ultrasonic Diffractometer</a></li>
+                        <li><a href="ultrasonics.html#applications-of-ultrasonics">Applications of ultrasonics</a></li>
+                        <li><a href="ultrasonics.html#ndt">NDT</a></li>
+                        <li><a href="ultrasonics.html#sonar">SONAR</a></li>
+                    </ul>
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">LASER</a>
+                <ul class="subtopics">
+                    <li><a href="laser.html#characteristics">Characteristics of laser beam</a></li>
+                    <li><a href="laser.html#induced-absorption">Induced Absorption</a></li>
+                    <li><a href="laser.html#spontaneous-emission">Spontaneous emission</a></li>
+                    <li><a href="laser.html#stimulated-emission">Stimulated emission</a></li>
+                    <li><a href="laser.html#population-inversion">Population inversion</a></li>
+                    <li><a href="laser.html#pumping">Pumping</a></li>
+                    <li><a href="laser.html#metastable-states">Metastable states</a></li>
+                    <li><a href="laser.html#laser-components">Components of laser</a></li>
+                    <li><a href="laser.html#ruby-laser">Ruby laser</a></li>
+                    <li><a href="laser.html#he-ne-laser">He-Ne laser</a></li>
+                    <li><a href="laser.html#semiconductor-laser">Semiconductor laser</a></li>
+                    <li><a href="laser.html#applications-of-laser">Applications of laser</a></li>
+
+
+
+
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">Holography</a>
+                <ul class="subtopics">
+
+                    <li><a href="holography.html#holography">Basics of holography</a></li>
+                    <li><a href="holography.html#recording">Recording of Hologram</a></li>
+                    <li><a href="holography.html#reconstruction">Reconstruction of Image</a></li>
+                    <li><a href="holography.html#comparison">Differences between Holography and Photography</a></li>
+                    <li><a href="holography.html#applications">Applications of Holography</a></li>
+
+
+
+
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">Fibre Optics</a>
+                <ul class="subtopics">
+
+                    <li><a href="fibreoptics.html#opticalfibre">Optical fibre - Structure & light propagation</a></li>
+                    <li><a href="fibreoptics.html#stepindex">Step-Index fibre</a></li>
+                    <li><a href="fibreoptics.html#gradedindex">Graded-Index fibre</a></li>
+                    <li><a href="fibreoptics.html#numericalaperture">Numerical aperture</a></li>
+                    <li><a href="fibreoptics.html#communication">Fibre optic communication system</a></li>
+                    <li><a href="fibreoptics.html#applicationfibre">Applications of optical fibres</a></li>
+
+
+
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">Syllabus</a>
+                <ul class="subtopics">
+                    <li><a href="syllabus.html#pht100">Engineering Physics A ( PHT 100 )</a></li>
+                    <li><a href="syllabus.html#pht110">Engineering Physics B ( PHT 110 )</a></li>
+                    <li><a href="syllabus.html#phl120">Engineering Physics Workshop ( PHL 120 )</a></li>
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#">Question Bank</a>
+                <ul class="subtopics">
+                    <li> <a href="qbank.html#mod1">Module 1</a></li>
+                    <li> <a href="qbank.html#mod2">Module 2</a></li>
+                    <li> <a href="qbank.html#mod3">Module 3</a></li>
+                    <li> <a href="qbank.html#mod4">Module 4</a></li>
+                    <li> <a href="qbank.html#mod4">Module 5</a></li>
+                </ul>
+            </li>
+
+        </ul>
+        </span>
+    </nav>
+    <nav class="right-side-navbar">
+        <ul>
+            <li class="main-topic">
+                <a href="#features-of-sound">Features of Sound</a>
+                <ul class="subtopics">
+                    <li><a href="#features-of-sound">Pitch</a></li>
+                    <li><a href="#features-of-sound">Loudness</a></li>
+                    <li><a href="#features-of-sound">Sound Intensity Level (SIL)</a></li>
+                    <li><a href="#features-of-sound">Intensity</a></li>
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#echo-reverberation">Echo and Reverberation</a>
+                <ul class="subtopics">
+                    <li><a href="#echo-reverberation">Echo</a></li>
+                    <li><a href="#echo-reverberation">Reverberation</a></li>
+                    <li><a href="#echo-reverberation">Difference between Echo and Reverberation</a></li>
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#absorption-of-sound">Absorption of Sound</a>
+                <ul class="subtopics">
+                    <li><a href="#absorption-of-sound">Absorption Coefficient</a></li>
+                    <li><a href="#absorption-of-sound">Sabine's Formula</a></li>
+                </ul>
+            </li>
+            <li class="main-topic">
+                <a href="#acoustics-factors-affecting-a-hall">Acoustics Factors Affecting a Hall</a>
+                <ul class="subtopics">
+                    <li><a href="#acoustics-factors-affecting-a-hall">Echo</a></li>
+                    <li><a href="#acoustics-factors-affecting-a-hall">Reverberation</a></li>
+                    <li><a href="#acoustics-factors-affecting-a-hall">Focusing of Sound</a></li>
+                    <li><a href="#acoustics-factors-affecting-a-hall">Echelon Effect</a></li>
+                    <li><a href="#acoustics-factors-affecting-a-hall">Resonance Effect</a></li>
+                    <li><a href="#acoustics-factors-affecting-a-hall">Adequate Loudness and Noise</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="main-content">
+        <section id="acoustics">
+            <h2>Acoustics</h2>
+            <p>Acoustics is the branch of physics that deals with the study of sound and its properties. It involves the
+                understanding of how sound behaves in different environments and how it can be controlled and
+                manipulated. In
+                this section, we will cover some important topics in acoustics, including the features of sound, echo,
+                reverberation, sound absorption, and factors affecting a hall.</p>
+            <section id="features-of-sound">
+                <h3>Features of Sound</h3>
+                <p>Sound is a mechanical wave that travels through a medium, such as air or water. It is characterized
+                    by
+                    various features, including:</p>
+                <ul>
+                    <li>
+                        <h4>Pitch</h4>
+                        <p>Pitch refers to the perceived highness or lowness of a sound. It is determined by the
+                            frequency of
+                            the sound wave, with higher frequency waves having a higher pitch and lower frequency waves
+                            having a
+                            lower pitch.</p>
+                    </li>
+                    <li>
+                        <h4>Loudness</h4>
+                        <p>Loudness refers to the perceived intensity or amplitude of a sound. It is determined by the
+                            amplitude
+                            of the sound wave, with larger amplitude waves being perceived as louder and smaller
+                            amplitude waves
+                            being perceived as softer.</p>
+                    </li>
+                    <li>
+                        <h4>Sound Intensity Level (SIL)</h4>
+                        <p>Sound Intensity Level (SIL) is a measure of the intensity of a sound. It is measured in
+                            decibels (dB)
+                            and is calculated as 10 log10 (I/Io) where I is the intensity of the sound and Io is a
+                            reference
+                            intensity level. </p>
+                    </li>
+                    <li>
+                        <h4>Intensity</h4>
+                        <p>Intensity refers to the power of a sound wave per unit area. It is measured in watts per
+                            square meter
+                            (W/m^2) and is directly proportional to the amplitude of the sound wave.</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="echo-reverberation">
+                <h3>Echo and Reverberation</h3>
+                <p>Echo and reverberation are both related to the reflection of sound waves. </p>
+                <ul>
+                    <li>
+                        <h4>Echo</h4>
+                        <p>Echo is a distinct repetition of a sound that is heard after the original sound has been
+                            emitted. It
+                            occurs when a sound wave is reflected off a hard surface, such as a wall or a cliff, and
+                            returns to
+                            the listener with a distinct delay. </p>
+                    </li>
+                    <li>
+                        <h4>Reverberation</h4>
+                        <p>Reverberation is the persistence of sound in a particular space after the original sound has
+                            stopped.
+                            It occurs when sound waves are reflected multiple times off surfaces in a room or other
+                            enclosed
+                            space. Reverberation is characterized by its decay time, which is the amount of time it
+                            takes for
+                            the sound level to decrease by 60 dB after the sound source has stopped.</p>
+                    </li>
+                    </li>
+                    <li>
+                        <h4>Difference between Echo and Reverberation</h4>
+                        <p>The main difference between echo and reverberation is the number of reflections and the time
+                            delay between the
+                            original sound and the reflected sound. An echo is a single reflection of sound with a
+                            distinct delay, while
+                            reverberation is a series of reflections with a longer decay time. </p>
+                    </li>
+                </ul>
+            </section>
+            <section id="absorption-of-sound">
+                <h3>Absorption of Sound</h3>
+                <p>Sound absorption is the process by which a material or surface reduces the amplitude of a sound wave
+                    by
+                    converting its energy into heat. This is an important factor in controlling the acoustics of a room
+                    or other
+                    enclosed space.</p>
+                <ul>
+                    <li>
+                        <h4>Absorption Coefficient</h4>
+                        <p>The absorption coefficient is a measure of a material's ability to absorb sound. It is a
+                            dimensionless
+                            value between 0 and 1, with a value of 1 indicating complete absorption and a value of 0
+                            indicating no
+                            absorption. </p>
+                    </li>
+                    <li>
+                        <h4>Sabine's Formula</h4>
+                        <p>Sabine's formula is used to calculate the reverberation time of a room. It takes into account
+                            the volume
+                            of the room, the total absorbing area of the room, and the absorption coefficient of the
+                            materials used
+                            in the room. </p>
+                    </li>
+                </ul>
+            </section>
+            <section id="acoustics-factors-affecting-a-hall">
+                <h3>Acoustics Factors Affecting a Hall</h3>
+                <p>The acoustics of a hall or other enclosed space can greatly affect the quality of the sound heard by
+                    the
+                    listener. Some important factors to consider include:</p>
+                <ul>
+                    <li>
+                        <h4>Echo</h4>
+                        <p>Echo can be a problem in large halls and can be reduced by using sound-absorbing materials on
+                            walls and
+                            ceilings. </p>
+                    </li>
+                    <li>
+                        <h4>Reverberation</h4>
+                        <p>Reverberation can also be a problem in large halls, making it difficult for the listener to
+                            understand
+                            speech or music. This can be reduced by using sound-absorbing materials on walls and
+                            ceilings and by
+                            controlling the room's volume and shape. </p>
+                    </li>
+                    <li>
+                        <h4>Focusing of Sound</h4>
+                        <p> Sound waves can be focused or deflected by the shape and materials used in the hall, which
+                            can affect
+                            the distribution of sound throughout the space.</p>
+                    </li>
+                    <li>
+                        <h4>Echelon Effect</h4>
+                        <p>The echelon effect is an acoustic phenomenon that occurs in long and narrow spaces, where
+                            sound waves are
+                            reflected off the walls and travel in parallel paths along the length of the space,
+                            resulting in a reinforcement of sound at certain locations. This can be reduced by using
+                            sound
+                            diffusing materials on the walls, or by breaking up the long, parallel walls with angles and
+                            curves. </p>
+                    </li>
+                    <li>
+                        <h4>Resonance Effect</h4>
+                        <p>Resonance is the amplification of sound caused by the natural frequency of a space or object.
+                            This can lead to
+                            certain frequencies being overly loud or boomy, and can be reduced by using sound-absorbing
+                            materials or by
+                            adjusting the shape and layout of the space. </p>
+                    </li>
+                    <li>
+                        <h4>Adequate Loudness and Noise</h4>
+                        <p>To ensure optimal sound quality, it is important to maintain an adequate loudness level in
+                            the space and to
+                            minimize external noise. This can be achieved by using sound-insulating materials on windows
+                            and doors, and by
+                            using sound-absorbing materials on walls and ceilings. </p>
+                    </li>
+                </ul>
+            </section>
+
+        </section>
+    </div>
+
+    <script src="pht110.js"></script>
+
+</body>
+
+</html>
